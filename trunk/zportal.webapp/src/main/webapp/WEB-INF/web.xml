@@ -1,0 +1,38 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+    
+  <display-name>Archetype Created Web Application</display-name>
+
+  <context-param>
+    <param-name>rootUrl</param-name>
+    <param-value>http://localhost:8080</param-value>
+  </context-param>
+    
+  <context-param>
+    <param-name>module-web</param-name>
+    <param-value>iglabs.zportal.web.Module</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>module-web.platformui</param-name>
+    <param-value>iglabs.zportal.web.platformui2.Module</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>module-web.shell</param-name>
+    <param-value>iglabs.zportal.web.shell.Module</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>module-setup</param-name>
+    <param-value>iglabs.zportal.web.setup.Module</param-value>
+  </context-param>
+    
+  <context-param>
+    <param-name>module-webapp</param-name>
+    <param-value>iglabs.zportal.webapp.Module</param-value>
+  </context-param>
+  
+</web-app>

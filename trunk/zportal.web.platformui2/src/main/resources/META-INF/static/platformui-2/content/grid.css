@@ -1,0 +1,23 @@
+table.PlatformUI-Grid {
+    border-collapse: collapse;
+}
+
+table.PlatformUI-Grid th {
+    background-color: #525252;
+    color: white;
+    padding: 5px;
+    border-left: 1px solid #525252;
+    border-right: 1px solid #525252;
+    border-top: 3px solid #424242;
+    border-bottom: 3px solid #424242;
+}
+
+table.PlatformUI-Grid th a {
+    color: white;
+}
+
+
+table.PlatformUI-Grid td {
+    padding: 5px;
+    border: 1px solid #eaeaea;
+}
